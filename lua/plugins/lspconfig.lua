@@ -6,6 +6,7 @@ return {
     opts = { ensure_installed = { "clangd" } },
   },
   opts = {
+    autoformat = false,
     servers = {
       clangd = {
         keys = {
