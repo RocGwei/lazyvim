@@ -5,4 +5,5 @@
 local opt = vim.opt
 
 opt.list = true
+opt.conceallevel = 0
 opt.listchars = { space = "·", tab = " »", trail = "·", extends = ">", precedes = "<", nbsp = "␣" }
