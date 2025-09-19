@@ -1,6 +1,8 @@
 return {
   "nvim-treesitter/nvim-treesitter",
-  opts = {
-    indent = { enable = false },
-  },
+  opts = function(_, opts)
+    opts.indent = opts.indent or {}
+    opts.indent.enable = false
+    return opts
+  end,
 }
