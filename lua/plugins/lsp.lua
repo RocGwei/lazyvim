@@ -18,15 +18,11 @@ local TOOLS = {
   -- Rust
   "rustfmt",
   -- Go
-  -- "golangci-lint",
-  -- "staticcheck",
-  -- "delve",
-  -- "gofumpt",
-  -- "golines",
-  -- "gomodifytags",
-  -- "gotests",
-  -- "iferr",
-  -- "impl",
+  "goimports",
+  "gofumpt",
+  "gomodifytags",
+  "impl",
+  "delve",
 }
 
 -- Check whether an executable exists on the system PATH
